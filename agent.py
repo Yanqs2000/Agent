@@ -217,7 +217,7 @@ def main(project_directory):
     project_dir = os.path.abspath(project_directory)
 
     tools = [read_file, write_to_file, run_terminal_command]
-    agent = ReActAgent(tools=tools, model="doubao-seed-2-0-code-preview-260215",
+    agent = ReActAgent(tools=tools, model="glm-5-2-260617",
                        project_directory=project_dir)
 
     task = input("请输入任务：")

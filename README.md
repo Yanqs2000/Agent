@@ -26,7 +26,7 @@ A Simple Agent by Vibe Coding
 
 ## 3. 运行环境与依赖
 
-项目要求 Python 版本不低于 3.12。依赖由 `pyproject.toml` 声明：
+项目要求 Python 版本不低于 3.11。依赖由 `pyproject.toml` 声明：
 
 ```toml
 dependencies = [
