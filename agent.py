@@ -20,7 +20,7 @@ class ReActAgent:
         self.project_directory = project_directory
         self.client = OpenAI(
             #base_url="https://openrouter.ai/api/v1",
-            base_url="https://ark.cn-beijing.volces.com/api/v3",
+            base_url="https://ark.cn-beijing.volces.com/api/v3", # 火山引擎api，不是token plan
             api_key=ReActAgent.get_api_key(),
         )
 
